@@ -1,108 +1,20 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="UTF-8">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>站长工具大全-SEO站长常用工具导航</title>
-<meta name="keywords" content="站长工具大全,站长工具导航,SEO工具,站长常用工具,SEO站长工具"/>
-<meta name="description" content="站长工具导航皆在为站长提供全面的站长工具，本网收录了互联网各大热门在线站长工具，经常上站长工具可以了解SEO数据变化。还可以检测网站死链接、蜘蛛访问、HTML格式检测、网站速度测试、友情链接检查、网站域名IP查询、PR、权重查询、alexa、whois查询等等。"/>
-<style> 
-*{margin:0; padding:0;}body {font-size:14px;font-family:"微软雅黑","宋体";} 
-html{ width:100%; height:auto; background:url(http://tool.lusongsong.com/images/bg.gif) top center repeat-x;}
-#wrapper{width: 960px;margin-top: 0;margin-right: auto;margin-bottom: 0;margin-left: auto;} #header{height: 54px;margin-bottom: 10px;
-} #logo{float: left;text-align: left;text-indent: -999em;background-image: url(images/logo.gif);background-repeat: no-repeat;background-position: 5px 10px;} #logo h1 a{width: 229px;height:54px;display: block;margin-left: 5px;}
-#toptool{font-size: 20px;color:#08598C;float: right;padding: 10px;}
-#container{overflow: hidden;float: left;width: 100%;} 
-#footer{float: left;margin-top: 10;margin-right: auto;margin-bottom: 0;margin-left: auto;width: 100%;text-align: center;}
-#footer p{padding-top: 10px;padding-bottom: 10px;}
-a{color:#08598C;text-decoration:none;}
-a:hover{color:#F00;text-decoration: underline;}
-.notification {padding-left: 35px;border: 1px solid;font-size: 14px;border-color: #e6db55;color: #666452;background-color: #fffbcc;line-height: 40px;margin-right: auto;margin-left: auto;margin-top: 10px;margin-bottom: 10px;text-align: left;}	
-h2{font-size: 14px;font-weight: bold;color: #135B96;}
-.lan{color: #175CB7;text-decoration: none;}
-a.lan:link{;color: #175CB7;text-decoration: none;}
-a.lan:visited{color: #175CB7;text-decoration: none;}
-a.lan:hover{color: #FF5400;text-decoration: underline;}
-.lana{color: #003366;text-decoration: none;}
-a.lana:link{;color: #003366;text-decoration: none;}
-a.lana:visited{color: #003366;text-decoration: none;}
-a.lana:hover{color: #003366;text-decoration: none;background-color: #FFFFFF;padding: 5px;}
-.hui{color: #999999;text-decoration: none;}
-a.hui:link{;color: #999999;text-decoration: none;}
-a.hui:visited{color: #999999;text-decoration: none;}
-a.hui:hover{color: #FF5400;text-decoration: underline;}
-.topk{background-color: #C2DDFB;border: 1px solid #73ACE5;color: #003366;text-decoration: none;padding-top: 5px;padding-right: 8px;padding-bottom: 2px;padding-left: 8px;height: 23px;}
-.topk2{background-color: #FFFFFF;margin-top: 10px;border: 1px solid #7FB2E2;padding: 1px;}
-.topk2a{border-bottom-width: 1px;border-bottom-style: solid;border-bottom-color: #AFCDF2;background-color: #E3F1FF;padding: 3px;text-indent: 5px;}
-.topk3{padding: 5px;text-indent: 16px;background-color: #F7FAFF;}
-.topk3 ul{list-style-image: none;list-style-type: none;margin: 0px;padding: 0px;}
-.topk3 li{padding-top: 10px;padding-bottom: 10px;height:16px;line-height:16px;list-style-type: none;color: #999999;}
-.topk3 li:hover{background-color:#FFFFCC;}
-#toolad{height: 60px;width: 960px;clear: both;margin-right: auto;margin-left: auto;margin-top: 10px;line-height: 30px;list-style-type: square;}
-#toolad li{float: left;width: 470px;list-style-type: none;}
-input{border:1px solid #8CD7FF;}
-.domain{width:550px; margin:0 auto; margin-top:10px;background:url(pop_bg.png) #DEF2F8 ;height:230px; border:3px solid #8CD7FF; padding:20px; line-height:40px }
-#url{width:400px; height:25px; font-size:24px; font-weight:bold; color:#1F7812;}
-.ulltext{height:25px;font-size:24px;font-weight:bold;color:#1F7812;}
-#xc{font-size:14px;height:25px;font-weight:bold;border:1px solid #8CD7FF;padding:5px;background-color: #DEF2F8;}
-#domain{width:750px;margin-top:10px;padding:10px;line-height:40px;margin-right: auto;margin-bottom: 0;margin-left: auto;}
-
-#head{width: 960px;margin-right: auto;margin-left: auto;}
-#head li{background-color: #E3F1FF;padding: 2px;border: 1px solid #AFCDF2;float: left;list-style-type: none;margin: 8px;}
-#head li a:hover{text-decoration: none;}
-</style> 
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', '']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-</head>
-<body>
-<div id="head">
-<li><a href="<?php echo $site_url;?>/">站长工具首页</a></li>
-<li><a href="<?php echo $site_url;?>/addurl.html" target="_blank">搜索引擎登录入口</a></li>
-<li><a href="<?php echo $site_url;?>/Alexa/" target="_blank">Alexa排名工具</a></li>
-<li><a href="<?php echo $site_url;?>/shua_pv/" target="_blank">增长网站流量</a></li>
-<li><a href="<?php echo $site_url;?>/seo/" target="_blank">超级外链工具</a></li>
-<li><a href="<?php echo $site_url;?>/union.html" target="_blank">网赚联盟</a></li>
-<li><a href="<?php echo $site_url;?>/tools/toolsui" target="_blank">网站常用工具</a></li>
-<li><a href="<?php echo $site_url;?>/ads/" target="_blank">投放广告</a></li>
-<li><a href="<?php echo $site_url;?>/guestbook/" target="_blank">给我留言</a></li>
-</div>
-
-<div id="wrapper">
 <div id="header">
-<div id="logo"><h1><a href="<?php echo $site_url;?>/tools/toolsui" title="站长工具大全-站长实用工具箱">站长工具大全</a></h1></div>
-<div id="toptool">数据更新日期：<?php echo $tool_update_date;?></div>
+<div id="logo"><h1><a href="http://tool.lusongsong.com/" title="站长工具大全-站长实用工具箱">站长工具大全</a></h1></div>
+<div id="toptool">数据更新日期：2014.02.13</div>
 </div>
 
 
 
 <div id="toolad">
-<li><!-- 广告位：TOOL AD1 --></li>
-<li><!-- 广告位：TOOL AD2 --></li>
+<li><!-- 广告位：TOOL AD1 -->
+</li>
+<li><!-- 广告位：TOOL AD2 -->
+</li>
 </div>
-
+<?php if(0){ ?>
 <div class="notification">
-<?php echo $site_tool_message;?>
-</div>
-
+  【通知】 新建立了一个“<a href="http://www.zhanzhanggou.com/" target="_blank">站长狗</a>”的导购平台，帮助站长买到物美价廉的虚拟产品，里面还收集了各个优惠活动。</div>
+<?php } ?>
 <div id="container">
 
 <div class="topk">
@@ -126,7 +38,7 @@ var _hmt = _hmt || [];
   <div class="topk3">
   <ul>
 <div id="domain">
-<form id="form1" name="form1" method="post" action="seo/seo" target="_blank" rel="nofollow">
+<form id="form1" name="form1" method="post" action="seo/seo.asp" target="_blank" rel="nofollow">
     <div>
     <span class="ulltext">http://</span><input type="text" name="url" id="url" />
       <input type="submit" name="submit" id="xc" value="开始疯狂的增加外链吧！" />
@@ -156,7 +68,7 @@ var _hmt = _hmt || [];
   <div class="topk3">
   <ul>
     <li><a href="http://tool.chinaz.com/" target="_blank" rel="nofollow">ChinaZ站长工具</a>：站长之家推出的工具，国内站长最常用的网站SEO查询工具，功能全面。</li>
-    <li><a href="http://tool.lusongsong.com/seo/" target="_blank" rel="nofollow">SEO外链工具</a>：主要用于提高网站外链，可以批量增加外链，利用站长工具的查询功能增加反链，全部实现自动化提交。</li>
+    <li><a href="http://www.zui5.com/seo/" target="_blank" rel="nofollow">超级外链工具</a>：主要用于提高网站外链，可以批量增加外链，利用站长工具的查询功能增加反链，全部实现自动化提交。</li>
     <li><a href="http://tool.lusongsong.com/addurl.html" target="_blank" rel="nofollow">搜索引擎登录口大全</a>：涵盖国内外所有搜索引擎的网站登录入口。</li>
     <li><a href="http://www.alexa.com/" target="_blank" rel="nofollow">Alexa</a>：国内应用最广泛的网站排名查询工具，很多网站都以Alexa排名做标准，Alexa适合与同类型网站比较。</li>
     <li><a href="http://top.chinaz.com/top500?t=81" target="_blank" rel="nofollow">中文网站排行TOP500</a>：个人感觉比alexa好，卢松松博客也赫然在列哦（在站长资源栏目）！</li>
@@ -239,6 +151,7 @@ var _hmt = _hmt || [];
     <li><a href="http://www.jiasule.com/" target="_blank" rel="nofollow">加速乐</a>：免费CDN、平均加速200%以上，访问量提升19%，是唯一一款使用前后不会影响网站访问及搜索引擎排名的免费CDN平台。</li>
     <li><a href="http://www.webluker.com/" target="_blank" rel="nofollow">Webluker</a>：一站式运维服务综合平台，虽然整个技术团队比较年轻，但是已经成长为国内最知名的CDN服务商了。</li>
     <li><a href="https://www.cloudflare.com/" target="_blank" rel="nofollow">CloudFlare</a>：比较早的免费CDN服务了，如果你的网站访问用户是全世界的，那么CloudFlare一定适合你。</li>
+    <li><a href="https://www.yundun.cn/" target="_blank" rel="nofollow">云盾</a>：新兴力量、后起之秀，"云盾"安全防护系统为网站、在线应用提供一站式的安全加速解决方案。</li>
     <li><a href="http://www.nimsoft.com/zh/index.html" target="_blank" rel="nofollow">Nimsoft</a>：国外CDN，在全球数十个国家有服务器（包括在中国），放在国外的网站推荐使用，并提供网站检测工具。</li>
     
   </ul>
@@ -274,6 +187,9 @@ var _hmt = _hmt || [];
   </div>
 </div>
 
+<script type="text/javascript">
+/*TOOL 960*90，创建于2011-10-14*/
+</script>
 
 <div class="topk2">
      <div class="topk2a"><a name="guanggao" id="08"></a><h2>>> 网站广告管家</h2></div>	 
@@ -291,9 +207,11 @@ var _hmt = _hmt || [];
   <div class="topk3">
   <ul>
     <li><a href="http://chuangyi.baidu.com/" target="_blank" rel="nofollow">百度创意专家</a>：广告牌快速生成器，适合百度推广用户使用，物料模板很多。</li>
+    <li><a href="https://www.google.com/webdesigner/" target="_blank" rel="nofollow">Google Web Designer</a>：入门级HTML5广告应用设计工具，无缝打造DoubleClick和AdMob广告，可选任何通用的发布环境；</li>
     <li><a href="http://banner.alimama.com/" target="_blank" rel="nofollow">阿里妈妈广告牌制作</a>：可快速生成动画广告牌，制作Flash效果较好，支持用户自行设计图案、自定义广告牌尺寸等个性化服务。</li>
     <li><a href="http://www.55.la/banner.html" target="_blank" rel="nofollow">55LA广告牌制作</a>：老牌banner制作网站，卢松松一直在使用，素材多，制作方便，站长必备的图片工具。</li>
     <li><a href="http://xiuxiu.web.meitu.com/" target="_blank" rel="nofollow">美图秀秀网页版</a>：简单易用，功能强大，海量的饰品、边框、场景素材以及独有图片特效可以使您的图片获得绝妙的效果。</li>
+    <li><a href="https://www.canva.com/" target="_blank" rel="nofollow">Canva</a>：Canva 致力于为用户提供一个设计图形，通过简单的拖拉拽操作和搜索 Canva 提供的 100 多万张图片字体等素材，即使你不是专业的设计师，也能很轻松地设计出令人满意的图片。</li>
   </ul>
   </div>
 </div>
@@ -331,11 +249,15 @@ var _hmt = _hmt || [];
   </ul>
   </div>
 </div>
+<script type="text/javascript">
+/*TOOL 960*90，创建于2011-10-14*/
+</script>
 
 <div class="topk2">
      <div class="topk2a"><a name="kaifang" id="12"></a><h2>>> 适合站长的开放平台</h2></div>	 
   <div class="topk3">
   <ul>
+    <li><a href="http://open.sogou.com/" target="_blank" rel="nofollow">搜狗开放平台</a>：搜搜并入搜狗，所以搜狗很有潜力，包含数据开放平台、官网认证开放平台、站长平台。</li>
     <li><a href="http://open.mail.qq.com/" target="_blank" rel="nofollow">QQ邮箱开放平台</a>：载体是QQ邮箱，通过邮箱用户可以订阅你的网站、博客，订阅人数非常大，但很难倒回流量。</li>
     <li><a href="http://open.weibo.com/" target="_blank" rel="nofollow">新浪微博开放平台</a>：中小站长不容易申请，一旦申请成功，会获得不少流量回报。</li>
     <li><a href="http://dev.open.t.qq.com/" target="_blank" rel="nofollow">腾讯微博开放平台</a>：中小站长不容易申请，共享腾讯海量用户，传播力度非常大。</li>
@@ -351,33 +273,13 @@ var _hmt = _hmt || [];
      <div class="topk2a"><a name="kaifang" id="12"></a><h2>>> 公众帐号平台</h2></div>	 
   <div class="topk3">
   <ul>
-    <li><a href="http://mp.weixin.qq.com/" target="_blank" rel="nofollow">（热）微信公众平台</a>：载体是微信手机客户端，海量用户，营销效果超好，订阅用户超500位就可以申请认证。</li>
+    <li><a href="http://mp.weixin.qq.com/" target="_blank" rel="nofollow">微信公众平台</a>：载体是微信手机客户端，海量用户，营销效果超好，订阅用户超500位就可以申请认证，卢松松微信号lusongsong。</li>
     <li><a href="http://vip.miliao.com/" target="_blank" rel="nofollow">米聊VIP账号</a>：VIP账号订阅发布平台，目前米聊注册用户27000万，VIP账号采取邀请制。</li>
     <li><a href="http://gz.feixin.10086.cn/" target="_blank" rel="nofollow">飞信公众平台</a>：中国移动推出的公众平台，认证非常麻烦，还要填表格、提交营业执照、加盖公章等。</li>
-    <li><a href="#" target="_blank" rel="nofollow">媒体公众平台</a>：新浪旗下公众账号，内测中未开放……</li>
+    <li><a href="http://weibo.com/lusongsong" target="_blank" rel="nofollow">新浪微博粉丝服务平台</a>：新浪旗下公众账号，点击我的主页--管理即可找到该功能，仅限+V用户。</li>
     <li><a href="http://we.taobao.com/" target="_blank" rel="nofollow">（新）微淘公众平台</a>：用淘宝ID登录后台，这个信息流的账号运营者将来自淘宝商家、媒体机构,或来自某个消费领域的意见领袖等。</li>
-    <li><a href="https://plus.yixin.im/" target="_blank" rel="nofollow">（新）易信公众平台</a>：网易与中国电信推出的“易信”，除了具备微信的大多数功能之外，易信与微信最大的区别可通过易信给用户发送手机短信。</li>
+    <li><a href="https://plus.yixin.im/" target="_blank" rel="nofollow">易信公众平台</a>：网易与中国电信推出的“易信”，除了具备微信的大多数功能之外，易信与微信最大的区别可通过易信给用户发送手机短信。</li>
+    <li><a href="https://pp.laiwang.com" target="_blank" rel="nofollow">（新）来往公众帐号</a>：目前处于测试阶段，注册公众账号按照要求提交相应的资料，将在10个工作日内处理申请，建议按照要求去操作。</li>
   </ul>
   </div>
 </div>
-
-<div class="topk2">
-<!-- Duoshuo Comment BEGIN -->
-<div class="ds-thread"></div>
-<script type="text/javascript">
-	</script>
-<!-- Duoshuo Comment END -->
-</div>
-
-</div>
-
-<div id="footer">
-<p><a href="http://lusongsong.com/guestbook/" target="_blank">给我留言</a> - <a href="http://lusongsong.com/ads/" target="_blank" rel="nofollow">投放广告</a> - <a href="http://lusongsong.com/reed/about.html" target="_blank" rel="nofollow">关于本站</a> - <a href="http://feed.lusongsong.com/" target="_blank" rel="nofollow">订阅本站</a> - <a href="http://lusongsong.com/daohang/" target="_blank">博客大全</a> - <a href="http://down.lusongsong.com/" target="_blank">松松软件</a> - <a href="http://lusongsong.com/" target="_blank">卢松松博客</a>
-</p>
-<p>卢松松博客©版权所有 2009-2013 业务联系QQ13340454</p>
-</div>
-</div>
-<!-- UJian Button BEGIN -->
-<!-- UJian Button END -->
-</body>
-</html>

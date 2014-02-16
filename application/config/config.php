@@ -17,7 +17,7 @@
 $config['base_url']	= 'http://www.emule.com';
 $config['base_css']='/public/css/';
 $config['base_js']='/public/js/';
-$config['base_imgs']='/public/imgs/';
+$config['base_imgs']='/public/images/';
 $config['site_name']='资源分享社区';
 $config['site_keywords']='';
 $config['site_description']='';
