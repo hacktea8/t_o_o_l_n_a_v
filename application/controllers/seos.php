@@ -10,6 +10,7 @@ class Seos extends Webbase {
     $this->view('seos_index');
   }
   public function seo(){
-    
+    $this->assign(array('next_page'=>'','autostart'=>'','st'=>'','page_string'=>'','searchUrlList'=>''));
+    $this->view('seos_seo'); 
   }
 }

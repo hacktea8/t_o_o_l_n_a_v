@@ -10,7 +10,9 @@ class Webbase extends CI_Controller {
 
     $this->setviewdata(array('css_url'=>$this->config->item('base_css'),
     'js_url'=>$this->config->item('base_js'),'img_url'=>$this->config->item('base_imgs'),'site_name'=>$this->config->item('site_name'),'site_keywords'=>$this->config->item('site_keywords'),
-    'site_description'=>$this->config->item('site_description'),'base_url'=>$this->config->item('base_url')));
+    'site_description'=>$this->config->item('site_description'),'base_url'=>$this->config->item('base_url')
+    ,'notice'=>''
+    ));
   }
   public function setviewdata($param=array()){
     foreach($param as $key=>$val){

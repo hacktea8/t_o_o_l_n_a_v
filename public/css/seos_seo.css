@@ -1,0 +1,15 @@
+body{font-size:14px;background:#EEF7FF;font-family: Arial, Helvetica, sans-serif;padding:0;margin:0;font-weight: normal;}
+a{color: #08598C;}
+#wrapper{width: 1000px; margin: 0 auto;}
+.body{padding:15px;}
+#qian_li_v{font-weight:bold; color:green; margin-left:5px; margin-right:5px;}
+#notice{padding-left: 10px;line-height:29px;border: 1px dashed #B9AB9E;background-color: #fffbcc;background-position: 10px 8px;width: 960pxmargin-top: 8px;margin-right: auto;margin-bottom: 8px;margin-left: auto;}
+.page{padding: 3px;font-size: 16px;font-weight: 800;line-height: 20px;}
+.page a{ padding-left:3px; padding-right:5px;}
+.list{width: 760px;}
+h1{font-size: 36px;text-align: center;color:#08598C;font-weight: 800;}
+#red{font-weight: 800;color: #F00;}
+#head{width: 960px;margin-right: auto;margin-left: auto;}
+#head li{background-color: #E3F1FF;padding: 2px;border: 1px solid #AFCDF2;float: left;list-style-type: none;margin: 8px;}
+#head li a:hover{text-decoration: none;}
+
