@@ -4,13 +4,25 @@ class Seos extends Webbase {
 
   public function __construct(){
     parent::__construct();
-    //$this->load->model('testModel');
+    $this->load->model('toolmodel');
   }
   public function index(){
     $this->view('seos_index');
   }
-  public function seo(){
-    $this->assign(array('next_page'=>'','autostart'=>'','st'=>'','page_string'=>'','searchUrlList'=>''));
+  public function seo($page = '',$auto = 1, $st = 30){
+    $page = intval($page);
+    $auto = intval($auto);
+    $st = intval($st);
+    $url = $this->input->get('url');
+    $st = $st < 15 ? 15 :$st;
+    if( !$page){
+      $page = $this->toolmodel->getSearchLinkList();
+    }
+    $searchUrlList = $this->toolmodel->getSearchLinkList($page);
+    $n_p = $page - 1;
+    $next_page = $n_p > 0 ?'':'';
+    $page_string = '';
+    $this->assign(array('url'=>$url,'next_page'=>$next_page,'autostart'=>$auto,'st'=>$st,'page_string'=>$page_string,'searchUrlList'=>$searchUrlList));
     $this->view('seos_seo'); 
   }
 }
