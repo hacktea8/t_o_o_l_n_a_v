@@ -8,12 +8,10 @@
 
 <link rel="stylesheet" href="<?php echo $css_url,$_c,'_',$_a;?>.css?v=<?php echo $version;?>" type="text/css">
 <div id="head">
-<li><a href="http://tool.lusongsong.com/">站长工具首页</a></li>
-<li><a href="http://tool.lusongsong.com/addurl.html" target="_blank">搜索引擎登录入口</a></li>
-<li><a href="http://tool.lusongsong.com/Alexa/" target="_blank">Alexa排名工具</a></li>
-<li><a href="http://tool.lusongsong.com/shua_pv/" target="_blank">增长网站流量</a></li>
-<li><a href="http://tool.lusongsong.com/seo/" target="_blank">超级外链工具</a></li>
-<li><a href="http://tool.lusongsong.com/union.html" target="_blank">网赚联盟</a></li>
-<li><a href="http://down.lusongsong.com/" target="_blank">网站常用工具</a></li>
+<li><a href="/">站长工具首页</a></li>
+<li><a href="/addurl.html" target="_blank">搜索引擎登录入口</a></li>
+<li><a href="/sels/alexa/" target="_blank">Alexa排名工具</a></li>
+<li><a href="/seos/shua_pv/" target="_blank">增长网站流量</a></li>
+<li><a href="/seos/" target="_blank">超级外链工具</a></li>
 </div>
 <div id="wrapper">

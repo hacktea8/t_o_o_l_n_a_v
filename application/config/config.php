@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://www.emule.com';
+$config['base_url']	= 'http://tool.hacktea8.com/';
 $config['base_css']='/public/css/';
 $config['base_js']='/public/js/';
 $config['base_imgs']='/public/images/';

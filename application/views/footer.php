@@ -23,7 +23,6 @@ document.onkeydown = getEvent;
 if (top.location != self.location){
   top.location=self.location; 
 }
-<!--
 var sec=0;
 var min=0;
 var hou=0;
@@ -39,12 +38,11 @@ if((min>0)&&(flag==0))
 // window.alert("您刚刚来了1分钟!可别急着走开，还有好多好东东等着您呢!");
  flag=1;
 }
-document.getElementById("qian_li_v").innerHTML=hou+"小时"+min+"分"+sec+"秒
-";
+document.getElementById("qian_li_v").innerHTML=hou+"小时"+min+"分"+sec+"秒";
 idt=window.setTimeout("qian_li();",1000);
 }
-//-->
-setTimeout('location="?url=emu.hacktea8.com&page=53&auto=yes&ttime=15"',15*1000);
+
+setTimeout('location="?url=<?php echo $kw,'&page=',$page-1,'&auto=',$auto,'&st=',$st;?>"',<?php echo $st;?>*1000);
 
 function killErrors() {
 return true;

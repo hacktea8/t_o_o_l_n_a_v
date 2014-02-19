@@ -1,5 +1,5 @@
 <div id="header">
-<div id="logo"><h1><a href="http://tool.lusongsong.com/" title="站长工具大全-站长实用工具箱">站长工具大全</a></h1></div>
+<div id="logo"><h1><a href="/" title="站长工具大全-站长实用工具箱">站长工具大全</a></h1></div>
 <div id="toptool">数据更新日期：2014.02.13</div>
 </div>
 
@@ -38,7 +38,7 @@
   <div class="topk3">
   <ul>
 <div id="domain">
-<form id="form1" name="form1" method="post" action="seos/seo.asp" target="_blank" rel="nofollow">
+<form id="form1" name="form1" method="post" action="seos/seo/" target="_blank" rel="nofollow">
     <div>
     <span class="ulltext">http://</span><input type="text" name="url" id="url" />
       <input type="submit" name="submit" id="xc" value="开始疯狂的增加外链吧！" />
@@ -51,7 +51,7 @@
 	  </label>
 	  换页间隔时间：
 	  <label>
-	  <input name="ttime" id="ttime" type="text" value="30" size="8" maxlength="10" />
+	  <input name="st" id="st" type="text" value="30" size="8" maxlength="10" />
 	  </label>
 	  秒
 	（请填写15~50之间的数字）
@@ -69,7 +69,7 @@
   <ul>
     <li><a href="http://tool.chinaz.com/" target="_blank" rel="nofollow">ChinaZ站长工具</a>：站长之家推出的工具，国内站长最常用的网站SEO查询工具，功能全面。</li>
     <li><a href="http://www.zui5.com/seo/" target="_blank" rel="nofollow">超级外链工具</a>：主要用于提高网站外链，可以批量增加外链，利用站长工具的查询功能增加反链，全部实现自动化提交。</li>
-    <li><a href="http://tool.lusongsong.com/addurl.html" target="_blank" rel="nofollow">搜索引擎登录口大全</a>：涵盖国内外所有搜索引擎的网站登录入口。</li>
+    <li><a href="/addurl.html" target="_blank" rel="nofollow">搜索引擎登录口大全</a>：涵盖国内外所有搜索引擎的网站登录入口。</li>
     <li><a href="http://www.alexa.com/" target="_blank" rel="nofollow">Alexa</a>：国内应用最广泛的网站排名查询工具，很多网站都以Alexa排名做标准，Alexa适合与同类型网站比较。</li>
     <li><a href="http://top.chinaz.com/top500?t=81" target="_blank" rel="nofollow">中文网站排行TOP500</a>：个人感觉比alexa好，卢松松博客也赫然在列哦（在站长资源栏目）！</li>
     <li><a href="http://www.chinarank.org.cn/" target="_blank" rel="nofollow">中国网站排名</a>：以网站访问流量统计数据为依据适时发布“中国网站排名”。</li>
@@ -84,9 +84,9 @@
     <li><a href="http://www.aizhan.com/" target="_blank" rel="nofollow">爱站</a>：最出名的就是它的百度权重查询，虽然百度官方没有发布过任何权重值的信息，此类第三方工具仅供参考。</li>
     <li><a href="http://www.links.cn/" target="_blank" rel="nofollow">站长帮手</a>：即时了解哪些友情链接私自撤下链接，能自动识别JS链接、iframe链接等欺骗链接的方式，现在也逐步发展为一个综合性站长工具站了。</li>
     <li><a href="http://www.seomastering.com/" target="_blank" rel="nofollow">国外SEO工具</a>：覆盖功能最多的一款SEO查询网站，英文版网站使用。</li>
-    <li><a href="http://tool.lusongsong.com/shua_pv/" target="_blank" rel="nofollow">网站流量工具</a>：增长网站流量工具可以不断的刷新您的网站页面，让您网站流量立即倍增，迅速提升Alexa排名。 </li>
-    <li><a href="http://tool.lusongsong.com/AlexaCha/" target="_blank" rel="nofollow">Alexa查询工具</a>：可以查询Alexa的世界排名。</li>
-        <li><a href="http://tool.lusongsong.com/Alexa/" target="_blank" rel="nofollow">Alexa工具</a>：alexa世界排名工具是一款提高网站alexa排名，增强网站竞争力的alexa排名优化的在线工具。</li>
+    <li><a href="/shua_pv/" target="_blank" rel="nofollow">网站流量工具</a>：增长网站流量工具可以不断的刷新您的网站页面，让您网站流量立即倍增，迅速提升Alexa排名。 </li>
+    <li><a href="/AlexaCha/" target="_blank" rel="nofollow">Alexa查询工具</a>：可以查询Alexa的世界排名。</li>
+        <li><a href="/Alexa/" target="_blank" rel="nofollow">Alexa工具</a>：alexa世界排名工具是一款提高网站alexa排名，增强网站竞争力的alexa排名优化的在线工具。</li>
   </ul>
   </div>
 </div>
@@ -120,7 +120,7 @@
     <li><a href="http://www.anquan.org/seccenter/appeal_verify/" target="_blank" rel="nofollow">知道创宇安全联盟申诉通道</a>：百度搜索结果中出现的风险提示，均来自SCANV(知道创宇)的网址库。</li>
     <li><a href="http://wd.360.cn/appeal/appeal.html" target="_blank" rel="nofollow">360网盾申诉</a>：360网盾拦截木马病毒网站，采取自动加人工的审核方法，核实您申诉的网址是否存在欺骗、不健康或者其他恶意信息的行为。</li>
     <li><a href="http://fish.ijinshan.com/Kws/appeal" target="_blank" rel="nofollow">金山云安全网站申诉</a>：主要通过杀毒软件拦截的网页，如果出现误报可以向金山申诉。</li>
-    <li><a href="http://tool.lusongsong.com/addurl.html#tousu" target="_blank" rel="nofollow">更多申诉登陆口点此进入……</a></li>
+    <li><a href="/addurl.html#tousu" target="_blank" rel="nofollow">更多申诉登陆口点此进入……</a></li>
   </ul>
   </div>
 </div>
@@ -182,7 +182,7 @@
     <li><a href="http://union.baidu.com/register.action" target="_blank" rel="nofollow">百度联盟</a>：做网站必备的赚钱工具，审核较严格，需要备案，付款方便，但要扣税，广告种类多。</li>
     <li><a href="https://www.google.com/adsense/g-app-single-1?hl=zh-CN" target="_blank" rel="nofollow">Google adsense</a>：站长投放最多的联盟广告，单价高，美元结算，申请方便，但监控非常严格，一点失误就会导致用就封闭帐号。</li>
     <li><a href="http://www.alimama.com/" target="_blank" rel="nofollow">淘宝联盟</a>：适合淘宝客类站长使用，广告投放方便，提现容易。</li>
-    <li><a href="http://tool.lusongsong.com/union.html" target="_blank" rel="nofollow">更多联盟广告介绍请点此</a></li>
+    <li><a href="/union.html" target="_blank" rel="nofollow">更多联盟广告介绍请点此</a></li>
   </ul>
   </div>
 </div>
@@ -264,7 +264,7 @@
     <li><a href="http://connect.qq.com/" target="_blank" rel="nofollow">QQ互联</a>：通过QQ互联，网站主和开发者可以申请接入QQ登录、用户可以使用QQ账号登录接入的站点。</li>
     <li><a href="http://open.shouji.baidu.com/" target="_blank" rel="nofollow">百度移动开放平台</a>：通过CNAME的方式解析域名到百度，可以实现快速建立适合百度搜索的WAP网站。</li>
     <li><a href="http://open.360.cn/" target="_blank" rel="nofollow">360开放平台大全</a>：拥有360软件开放平台、WEB应用开放平台、浏览器开放平台、团购开放平台、游戏开放平台、手机开放平台等开放平台。</li>
-    <li><a href="http://tool.lusongsong.com/addurl.html#kaifang" target="_blank">更多开放平台……</a></li>
+    <li><a href="/addurl.html#kaifang" target="_blank">更多开放平台……</a></li>
   </ul>
   </div>
 </div>

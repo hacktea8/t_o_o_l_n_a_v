@@ -15,7 +15,7 @@
 <?php if($next_page){?>
 <a id="red" href='<?php echo $next_page;?>'>如果无法自动翻页请点下一页，第<?php echo $page - 1;?>页</a>
 <?php } ?>
-【自动翻页功能当前状态：<span class="red"><?php echo $autostart ?'开':'关';?>，每 <?php echo $st;?> 秒翻页</span>】
+【自动翻页功能当前状态：<span class="red"><?php echo $auto ?'开':'关';?>，每 <?php echo $st;?> 秒翻页</span>】
 </div>
 
 <div class="page">
@@ -23,10 +23,12 @@
 </div>
 <div class="list">
 <ol>
-<?php foreach($searchUrlList as $row){ ?>
-<li><a href='<?php echo $row['url'],$kw;?>' target=_blank>宣传 <?php echo $kw;?> </a>
+<?php foreach($searchUrlList as $row){ 
+$kw_url = str_replace('qs_kw',$kw,$row['url']);
+?>
+<li><a href='<?php echo $kw_url;?>' target=_blank>宣传 <?php echo $kw;?> </a>
 </li><br>
-<iframe src='<?php echo $base_url;?>webseo.html?<?php echo $row['url'],$kw;?>' height='50' width='90%' marginwidth='0' marginheight='0' hspace='0' vspace='0' frameborder='0' scrolling='no'></iframe>
+<iframe src='<?php echo $base_url;?>webseo.html?<?php echo $kw_url;?>' height='50' width='90%' marginwidth='0' marginheight='0' hspace='0' vspace='0' frameborder='0' scrolling='no'></iframe>
 <?php } ?>
 </ol>
 <div class="page">

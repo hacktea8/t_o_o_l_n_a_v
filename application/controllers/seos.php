@@ -13,16 +13,18 @@ class Seos extends Webbase {
     $page = intval($page);
     $auto = intval($auto);
     $st = intval($st);
-    $url = $this->input->get('url');
+    $url = $this->input->get_post('url');
     $st = $st < 15 ? 15 :$st;
+    $limit = 30;
+    $searchUrlTotal = $this->toolmodel->getSearchLinkTotal();
     if( !$page){
-      $page = $this->toolmodel->getSearchLinkList();
+      $page = ceil($searchUrlTotal / $limit);
     }
-    $searchUrlList = $this->toolmodel->getSearchLinkList($page);
+    $searchUrlList = $this->toolmodel->getSearchLinkList($page, $limit);
     $n_p = $page - 1;
     $next_page = $n_p > 0 ?'':'';
     $page_string = '';
-    $this->assign(array('url'=>$url,'next_page'=>$next_page,'autostart'=>$auto,'st'=>$st,'page_string'=>$page_string,'searchUrlList'=>$searchUrlList));
+    $this->assign(array('page'=>$page,'searchUrlTotal'=>$searchUrlTotal,'kw'=>$url,'next_page'=>$next_page,'auto'=>$auto,'st'=>$st,'page_string'=>$page_string,'searchUrlList'=>$searchUrlList));
     $this->view('seos_seo'); 
   }
 }
