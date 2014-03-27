@@ -41,9 +41,9 @@ if((min>0)&&(flag==0))
 document.getElementById("qian_li_v").innerHTML=hou+"小时"+min+"分"+sec+"秒";
 idt=window.setTimeout("qian_li();",1000);
 }
-
-setTimeout('location="?url=<?php echo $kw,'&page=',$page-1,'&auto=',$auto,'&st=',$st;?>"',<?php echo $st;?>*1000);
-
+<?php if($auto && $page > 0){ ?>
+setTimeout('location="/seos/seo/<?php echo $auto,'/',$st,'/',$page-1,'/?url=',$kw;?>"',<?php echo $st;?>*1000);
+<?php } ?>
 function killErrors() {
 return true;
 }
