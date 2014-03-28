@@ -38,7 +38,7 @@
   <div class="topk3">
   <ul>
 <div id="domain">
-<form id="form1" name="form1" method="post" action="seos/seo/" target="_blank" rel="nofollow">
+<form id="form1" name="form1" method="post" action="/seos/seo/" target="_blank" rel="nofollow">
     <div>
     <span class="ulltext">http://</span><input type="text" name="url" id="url" />
       <input type="submit" name="submit" id="xc" value="开始疯狂的增加外链吧！" />

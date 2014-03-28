@@ -12,7 +12,7 @@ class Seos extends Webbase {
   public function seo($auto = 1, $st = 30,$page = ''){
     $page = intval($page);
     $pa = $this->input->get_post('auto');
-    $auto = $pa ? $pa : $auto;
+    $auto = $pa ? $pa == 'yes' ?1:0 : $auto;
     $auto = intval($auto);
     $pp = $this->input->get_post('st');
     $st = $pp ? $pp : $st;
@@ -22,7 +22,7 @@ class Seos extends Webbase {
     $limit = 30;
     $searchUrlTotal = $this->toolmodel->getSearchLinkTotal();
     $pageTotal = ceil($searchUrlTotal / $limit);
-    $page = $page > $pageTotal ? $pageTotal : $page;
+    $page = ($page > $pageTotal || $page < 1) ? $pageTotal : $page;
     $searchUrlList = $this->toolmodel->getSearchLinkList($page, $limit);
     $n_p = $page - 1;
     $next_page = $n_p > 0 ? sprintf('/seos/seo/%d/%d/%d/?url=%s',$auto,$st,$page - 1,$url):'';

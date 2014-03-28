@@ -24,7 +24,7 @@
 <div class="list">
 <ol>
 <?php foreach($searchUrlList as $row){ 
-$kw_url = str_replace('qs_kw',$kw,$row['url']);
+$kw_url = 'http://'.str_replace('qs_kw',$kw,$row['url']);
 ?>
 <li><a href='<?php echo $kw_url;?>' target=_blank>宣传 <?php echo $kw;?> </a>
 </li><br>
