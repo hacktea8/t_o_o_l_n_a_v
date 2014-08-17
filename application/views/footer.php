@@ -41,7 +41,7 @@ if((min>0)&&(flag==0))
 document.getElementById("qian_li_v").innerHTML=hou+"小时"+min+"分"+sec+"秒";
 idt=window.setTimeout("qian_li();",1000);
 }
-<?php if($auto && $page > 0){ ?>
+<?php if($auto && $page > 1){ ?>
 setTimeout('location="/seos/seo/<?php echo $auto,'/',$st,'/',$page-1,'/?url=',$kw;?>"',<?php echo $st;?>*1000);
 <?php } ?>
 function killErrors() {
@@ -50,6 +50,8 @@ return true;
 window.onerror = killErrors;
 
 <?php } ?>
+var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5895228'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "v1.cnzz.com/stat.php%3Fid%3D5895228%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+
 </script>
 </div>
 </body>
